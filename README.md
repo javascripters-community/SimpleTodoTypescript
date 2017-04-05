@@ -1,5 +1,5 @@
 # SimpleTodo
-Simple do application using Angular 1.6 (Followed Angular John Papa Style guide)
+Simple do application using Angular 1.6 (Followed Angular John Papa Style guide) and Typescript.
 
 Steps to get started:
 1. Do npm-install in Root folder
