@@ -4,13 +4,13 @@ module MyApp{
         private count = 0;
         private todos: Todo[] = [
             {id: ++this.count, description: 'Wake Up', completed: false},
-            {id: ++this.count, description: 'Gym' },
-            {id: ++this.count, description: 'Office' }
+            {id: ++this.count, description: 'Gym', completed: false },
+            {id: ++this.count, description: 'Office', completed: false }
         ];
         private tabs: Tab[] = [
             {id: 1, name: 'all', description: 'All'},
             {id: 1, name: 'todo', description: 'Todo'},
-            {id: 1, name: 'completed', description: 'Completed'},
+            {id: 1, name: 'completed', description: 'Completed'}
         ];
         
         getTodoList(){
