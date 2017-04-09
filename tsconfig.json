@@ -1,0 +1,9 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "rootDir": ".",
+        "outDir": "dist",
+        "module": "commonjs"
+    }
+}
